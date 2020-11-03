@@ -1,0 +1,2 @@
+# deeptools-plotProfiler
+对于deeptools的computeMatrix生成的压缩矩阵文件转换成好理解的绘图矩阵
