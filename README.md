@@ -1,10 +1,10 @@
 # deeptools-plotProfiler
 
-Input:
+>Input:
 
 `computeMatrix工具得到的输出的压缩.gz矩阵文件`
 
-Usage:
+>Usage:
 
 
 ```
@@ -24,7 +24,7 @@ optional arguments:
 ```
 
 
-Output:
+>Output:
 
 |  bin   | mean  |sampleName| peakName|
 |  ----  | ----  |  ----  | ----  |
@@ -41,16 +41,12 @@ Output:
 
 输出文件为可以直接用来作图的整合矩阵,第一列为bin编号,第二列...指定列为峰信号均值,倒数第二列为样本名,倒数第一列为peak名.
 
-对比(曲线一致,前者是自动作图,后者是用graphpad作图):
+>对比(曲线一致,前者是自动作图,后者是用graphpad作图):
 
-```
-Before
-```
+**Before :**
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/1023/111958_d385336c_7948144.png "屏幕截图.png")
 
-```
-After
-```
+**After  :**
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/1023/112015_3651ddd4_7948144.png "屏幕截图.png")
